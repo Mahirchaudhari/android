@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">alert_box</string>
+    <array name="colorlist">
+    <item>red</item>
+    <item>orange</item>
+    <item>gray</item>
+    <item>yellow</item>
+    <item>pink</item>
+    <item>black</item>
+    </array>
+
+    <array name="Hobby_List">
+        <item>reading</item>
+        <item>playing</item>
+        <item>watching</item>
+        <item>gaming</item>
+    </array>
+
+
+</resources>

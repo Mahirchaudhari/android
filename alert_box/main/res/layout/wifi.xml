@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Enter Wifi name "
+        android:id="@+id/txtwifiname"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtname"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtwifiname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtname"
+        android:text="Enter wifi key"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtkey"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

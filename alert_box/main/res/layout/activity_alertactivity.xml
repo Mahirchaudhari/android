@@ -39,4 +39,36 @@
         android:id="@+id/btdatepicker"
         android:layout_below="@+id/btthree"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="timePicker"
+        android:id="@+id/bttimepicker"
+        android:layout_below="@+id/btdatepicker"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom dialog alerat"
+        android:id="@+id/btcustom"
+        android:layout_below="@+id/bttimepicker"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="radio alert"
+        android:id="@+id/btnradio"
+        android:layout_below="@+id/btcustom"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="check box alert"
+        android:id="@+id/btncheckbox"
+        android:layout_below="@+id/btnradio"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
