@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="Username"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/txtname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_below="@+id/txtnamet"
+        android:hint="Enter your Username"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/edtname" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="Username"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tvsurname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_below="@+id/txtnamet"
+        android:hint="Enter your Username"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/edtsurname"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+
+
+</LinearLayout>
