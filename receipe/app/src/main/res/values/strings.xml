@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">receipe</string>
+    <array name="receipelist">
+        <item>Pav Bhaji</item>
+        <item>Masala dhosa</item>
+        <item>Dhokla</item>
+        <item>Handwa</item>
+        <item>Paneer tika masala</item>
+        <item>Paneer butter masala</item>
+        <item>Paneer Bhurji</item>
+        <item>Koya Kaju</item>
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Samosa</item>
+        <item>Pani Puri</item>
+        <item>alu parotha</item>
+        <item>Bhungla Bateta</item>
+    </array>
+    <bool name="isdebug">true</bool>
+</resources>
